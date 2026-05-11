@@ -4,7 +4,8 @@
 
 @layer base {
   body {
-    @apply bg-cream text-gray-900;
+    background-color: #F8F6F3;
+    color: #111827;
   }
 }
 
