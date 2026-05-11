@@ -1,6 +1,17 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #F8F6F3;
+  --color-ivory: #FFFEF9;
+  --color-warmBeige: #E8DCC4;
+  --color-mossGreen: #8B9B7E;
+  --color-keralaGray: #9C9C9C;
+  --color-earthBrown: #A67C52;
+  --color-fogGray: #D0CEC9;
+  
+  --font-family-serif: var(--font-cormorant), serif;
+  --font-family-sans: var(--font-inter), sans-serif;
+}
 
 @layer base {
   body {
