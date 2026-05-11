@@ -11,16 +11,16 @@ const containerVariants = {
       staggerChildren: 0.3
     }
   }
-};
+} as const;
 
 const cardVariants = {
   hidden: { opacity: 0, y: 50 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: "easeOut" }
+    transition: { duration: 0.6 }
   }
-};
+} as const;
 
 export default function Events() {
   return (
