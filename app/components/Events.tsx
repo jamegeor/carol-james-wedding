@@ -51,14 +51,13 @@ export default function Events() {
             className="bg-cream p-8 md:p-10 rounded-sm shadow-lg hover:shadow-xl transition-shadow duration-300"
           >
             <div className="text-center mb-6">
-              <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                <svg viewBox="0 0 100 100" className="w-full h-full text-mossGreen">
-                  <path
-                    d="M50 20 L60 35 L50 40 L40 35 Z M30 35 L50 40 L50 75 L30 70 Z M70 35 L50 40 L50 75 L70 70 Z M25 70 L50 75 L75 70 L75 80 L50 85 L25 80 Z"
-                    fill="currentColor"
-                    opacity="0.8"
-                  />
-                </svg>
+              {/* Custom Cathedral Illustration */}
+              <div className="w-full max-w-[200px] h-[160px] mx-auto mb-4 flex items-center justify-center">
+                <img 
+                  src="/images/cathedral-illustration.png" 
+                  alt="St Thomas Cathedral Church, Pala"
+                  className="w-full h-full object-contain"
+                />
               </div>
               <h3 className="font-serif text-3xl md:text-4xl text-gray-900 mb-2">
                 WEDDING CEREMONY
