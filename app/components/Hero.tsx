@@ -16,7 +16,7 @@ export default function Hero() {
         <div 
           className="w-full h-full bg-cover bg-center monsoon-overlay"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1582407947304-fd86f028f716?q=80&w=2000')",
+            backgroundImage: "url('https://images.unsplash.com/photo-1596422846543-75c6fc197f07?q=80&w=2400')",
             backgroundAttachment: 'fixed',
           }}
         />
