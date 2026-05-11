@@ -1,13 +1,24 @@
 @import "tailwindcss";
 
 @theme {
-  --color-cream: #F8F6F3;
-  --color-ivory: #FFFEF9;
-  --color-warmBeige: #E8DCC4;
-  --color-mossGreen: #8B9B7E;
-  --color-keralaGray: #9C9C9C;
-  --color-earthBrown: #A67C52;
-  --color-fogGray: #D0CEC9;
+  /* ChatGPT Design System Colors */
+  --color-cream: #F4EFE7;
+  --color-ivory: #EFE7DC;
+  --color-warmBeige: #DCCDB8;
+  --color-mossGreen: #6F7563;
+  --color-deepMoss: #4D5448;
+  --color-keralaGray: #8C877F;
+  --color-earthBrown: #6B5645;
+  --color-darkEarth: #3E342D;
+  --color-fogGray: rgba(255,255,255,0.18);
+  --color-cardGlass: rgba(255,255,255,0.55);
+  --color-softBorder: rgba(62,52,45,0.08);
+  --color-goldAccent: #B89C72;
+  --color-mutedOlive: #8A8E74;
+  --color-teaGreen: #5F684F;
+  --color-backwaterGreen: #707B68;
+  --color-textMain: #2F2925;
+  --color-textMuted: #6E655E;
   
   --font-family-serif: var(--font-cormorant), serif;
   --font-family-sans: var(--font-inter), sans-serif;
@@ -15,8 +26,8 @@
 
 @layer base {
   body {
-    background-color: #F8F6F3;
-    color: #111827;
+    background-color: #F4EFE7;
+    color: #2F2925;
   }
 }
 
